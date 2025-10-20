@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f8f8f8;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+  }
+  
+  .login-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 414px;
+    text-align: center;
+    height: 600px;
+  }
+  
+  .login-box h2 {
+    font-size: 35px;
+    margin-top: 30px;
+  }
+  
+  .login-box input {
+    width: 320px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+  
+  ;
+  }
+  
+  .forgot {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    color: #333;
+    text-decoration: none;
+    margin-right: 17px;
+    margin-top: 10px;
+  }
+  
+  .login-btn {
+    width: 320px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    height: 60px;
+    font-size: 24px;
+    margin-top: 50px;
+
+    
+
+  }
+  
+  .register-btn {
+    width: 320px;
+    padding: 10px;
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 60px;
+    font-size: 24px;
+    margin-top: 10px;
+
+
+  }
+
+  .playfair-display-captu {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .caixinha  {
+    width: 320px;
+    height: 60px;
+    padding: 10px;
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 95px;
+  }
+
+  .caixinha2 {
+    width: 320px;
+    height: 60px;
+    padding: 10px;
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+    font-weight: bold;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
