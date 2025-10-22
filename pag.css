@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #3a2e2e;
+    color: white;
+  }
+  
+  header {
+    background-color: #201819;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #search-bar {
+    padding: 10px;
+    font-size: 16px;
+    width: 1855px;
+    max-width: 10000px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3a2e2e;
+    color: rgb(196, 185, 185);
+  }
+  
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  nav button {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 1px solid #444;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  nav button:hover {
+    background-color: #333;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  .livros {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  .livros img {
+    height: 200px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  
